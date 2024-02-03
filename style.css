@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(236, 236, 236);
+}
+.container {
+    height: 100%;
+    width: 960px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+}
+.post {
+    position: relative;
+    width: 900px;
+    height: auto;
+    min-height: 160px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.text {
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(39, 39, 39);
+}
+.grades{
+    margin-left: 5px;
+    gap: 15px;
+    display: flex;
+    /* border: 1px solid red; */
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.likes {
+    color: rgb(67, 155, 71);
+}
+.dislikes {
+    color: rgb(165, 68, 68);
+}
+.newComment{
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    min-height: 30px;
+    color: rgb(39, 39, 39);
+}
+.newCommentInput {
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    outline: none;
+    width: 95%;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 100%;
+    font-size: 15px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-right: 4px solid rgb(230, 230, 230);
+    font-weight: 600;
+}
+.newCommentButton {
+    background-color: rgb(255, 255, 255);
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.commentsField {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.comment {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    min-height: 40px;
+    height: auto;
+    margin-bottom: 1%;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 10px;
+    position: relative;
+    flex-direction: column;
+}
+.delete{
+    position: absolute;
+    right: 1.5%;
+    top: 20px;
+    color: rgb(39, 39, 39);
+    font-size: 27px;
+    cursor: pointer;
+}
+.time{
+    color: rgb(39, 39, 39);
+    font-weight: 700;
+    margin-top: -5px;
+}
+.editComBut{
+    color: rgb(39, 39, 39);
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+.timeCom{
+    font-size: 16px;
+}
+.id{
+    display: none;
+}
+.comText{
+    /* display: none; */
+}
+.editComBox{
+    height: 25px;
+    width: 800px;
+    display: flex;
+    display: none;
+}
+.editCom{
+    height: 100%;
+    width: 96%;
+    font-size: 17px;
+    padding: 5px;
+    border: 0;
+    background-color: rgb(230, 230, 230);
+    border-radius: 7px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 4px solid rgb(255, 255, 255);
+}
+.editComApply{
+    color: rgb(39, 39, 39);
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4%;
+    height: 100%;
+    font-size: 18px;
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+.comId{
+    display: none;
+}
